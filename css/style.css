@@ -19,6 +19,7 @@
   text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -30,11 +31,16 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-
-.centered {
-  text-align: center
+h2 {
+    text-align: center;
 }
 
+p.centered {
+  text-align: justify;
+}
+p {
+text-align: center;
+}
 .mt {
   margin-top: 80px;
 }
@@ -57,6 +63,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #4a4a4a;
+  text-align: center;
 }
 
 #headerwrap h1:hover {
@@ -117,7 +124,7 @@ p {
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 650px;
+  min-height: 780px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -168,11 +175,26 @@ p {
   border-radius: 45px;
   border: 27px solid white;
 }
+.col-md-3.col-md-offset-2 {
+    text-align: center;
+}
+h2.my-4.title.title-dark.mb {
+  text-align: center;
 
-.btn-primary {
+}
+.col-md-4 {
+    text-align: center;
+}
+
+a.btn.btn-lg{
   color: #fff;
   background-color: #00c099;
   border-color: #00a58e;
+}
+a.btn.btn-lg:hover {
+
+  background-color: #03a584;
+
 }
 
 #card {
@@ -182,14 +204,20 @@ p {
 }
 
 #cardPro {
-  background: #8080801a;
-  color: #00c099;
-  height: 600px;
+    margin-top: 25px;
+    background: #8080801a;
+    color: #00c099;
+    height: 600px;
+    border-radius: 20px;
 }
 
 #titleCard {
-  color: white;
-  font-size: large;
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    text-align: center;
+    height: 50px;
+    width: 91%;
 }
 
 #titleCardPro {
@@ -217,12 +245,14 @@ p {
 #cv {
   margin-top: 5px;
   width: 100%;
+  text-align: center;
 }
 
 #social {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #f2f2f2;
+  text-align: center;
 }
 
 #social i {
@@ -252,7 +282,7 @@ p {
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 650px;
+  min-height: 780px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -266,7 +296,7 @@ p {
 
 #workwrap h1 {
   color: #ffffff;
-  padding-top: 10px;
+  padding-top: 80px;
   padding-bottom: 20px;
   letter-spacing: 4px;
   font-size: 80px;
@@ -298,7 +328,7 @@ h2#porfolio-title {
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 650px;
+  min-height: 780px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -322,7 +352,7 @@ h2#porfolio-title {
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 650px;
+  min-height: 780px;
   width: 100%;
   background-size: 100%;
   background-size: cover;
@@ -330,7 +360,7 @@ h2#porfolio-title {
 
 #contactwrap h1 {
   color: #ffffff;
-  padding-top: 10px;
+  padding-top: 80px;
   padding-bottom: 20px;
   letter-spacing: 4px;
   font-size: 60px;
@@ -349,110 +379,6 @@ h2#porfolio-title {
 #contact h2 {
   font-size: 36px;
   margin-bottom: 30px;
-}
-
-.contact-form label {
-  color: #999;
-}
-
-.contact-form input, .contact-form textarea {
-  padding: 10px 12px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  height: auto;
-}
-
-.contact-form .form-send {
-  text-align: center;
-}
-
-.contact-form .form-send button {
-  background: #1abc9c;
-  border: 0;
-  padding: 14px 40px;
-  color: #fff;
-  transition: 0.4s;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 15px;
-}
-
-.contact-form .form-send button:hover {
-  background: #2addb9;
-}
-
-.contact-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact-form .loading {
-  display: none;
-  color: #555;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin: 15px 0;
-}
-
-.contact-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-.contact-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px 0;
-}
-
-.contact-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px 0;
 }
 
 /* Copyrights */
