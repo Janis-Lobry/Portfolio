@@ -37,9 +37,13 @@ h2 {
 
 p.centered {
   text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 }
 p {
-text-align: center;
+    margin: 12px 17px;
+    text-align: justify;
 }
 .mt {
   margin-top: 80px;
@@ -71,10 +75,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
-p {
-  margin: 20px 50px 30px
-}
-
 .navbar-brand {
   font-weight: 700;
 }
@@ -86,6 +86,8 @@ p {
 .navbar-default {
   border-color: transparent;
   background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -239,17 +241,20 @@ a.btn.btn-lg:hover {
 }
 
 #school {
-  margin: 10px 0px 40px;
+  margin: 10px 0px 20px;
+
 }
 
 #cv {
   margin-top: 5px;
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
+
 }
 
 #social {
-  padding-top: 50px;
+  .centeredadding-top: 50px;
   padding-bottom: 50px;
   background-color: #f2f2f2;
   text-align: center;
@@ -409,4 +414,71 @@ img, svg {
 
 a.text-primary {
   font-weight: bold;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  border: 1px solid #18bc9b;
+}
+
+a.btn.bg_red.btn-viewmore {
+    color: #25b999;
+}
+a.btn.bg_red.btn-viewmore:hover {
+    color: black;
+}
+.row {
+     margin-right: 0px !important;
+}
+.container {
+     padding: 0px !important;
+   }
+   p.text-justify {
+       margin-bottom: 35px;
+   }
+
+   .btn-focus, .btn-link:hover {
+    color: #00c099;
+      font-size: inherit;
+      font-weight: bold;
+text-decoration: none;
+
+}
+.btn-focus, .btn-link {
+ color: #00c099;
+   font-size: inherit;
+   font-weight: bold;
+text-decoration: none;
+
+}
+button.btn.btn-link.collapsed:hover {
+  color: #00c099;
+}
+button.btn.btn-link.collapsed {
+    font-size: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+button.btn.btn-link.collapsed.title {
+    color: #00c099;
+}
+button.btn.btn-link.collapsed.title:hover {
+  color: black;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    margin-right: 18px;
+}
+#linkedin {
+  background: white;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+  color: #00c099;
+  margin-bottom: 50px;
+
+}
+
+.fa, .far, .fas {
+    margin-right: 18px;
 }

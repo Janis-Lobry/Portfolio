@@ -74,9 +74,9 @@
       <!-- /container -->
     </div>
 
-    <div class="container-fluid">
-      <div class="row centered mt mb">
-        <div class="col-lg-6 col-lg-offset-3">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-12">
           <h2>JANIS LOBRY</h2>
           <p class="centered">Illustratrice en reconversion professionnel dans le dévélopement web depuis Septembre 2018, actuellement en formation au sein de la 5eme Promotion de Passerelle Numérique, implanté dans l'ecole Centrale de Marseille.
             <br>
@@ -85,94 +85,146 @@
         </div>
 
       </div>
-      <div class="row centered mt mb">
+      <div class="row centered">
         <div class="col-lg-6">
-          <h3>Mes compétences</h3>
-          <div id="card" class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 id="titleCard" class="card-title">
-                  FRONT-END</h5>
-                <ul id="elmCard">
-                  <li> <i class="fab fa-html5 mr-2"></i>HTML</li>
-                  <li> <i class="fab fa-css3-alt mr-2"></i> CSS</li>
-                  <li> <i class="fab fa-js mr-2"></i>JavaScript</li>
-                  <li> <i class="fab fa-twitter mr-2"></i>Bootstrap</li>
-                  <li> <i class="fas fa-paint-brush mr-2"></i>UX/UI Design</li>
-                </ul>
-              </div>
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed title" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Mes compétences
+                </button>
+              </h2>
             </div>
-          </div>
-          <div id="card" class="col-sm-6">
-            <div class="card">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                <h5 id="titleCard" class="card-title">
-                  BACK-END</h5>
-                <ul id="elmCard">
-                  <li> <i class="fas fa-database mr-2"></i>MySQL</li>
-                  <li> <i class="fab fa-node-js mr-2"></i>NodeJS</li>
-                  <li><i class="fab fa-linux mr-2"></i> Systèmes UNIX</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div id="card" class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 id="titleCard" class="card-title">
-                  THÉORIE INFORMATIQUE</h5>
-                <ul id="elmCard">
-                  <li> <i class="fas fa-book mr-2"></i>Algorithmique</li>
-                </ul>
-
-              </div>
-            </div>
-          </div>
-          <div id="card" class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 id="titleCard" class="card-title">
-                  GESTION DE PROJET</h5>
-                <ul id="elmCard">
-                  <li><i class="fab fa-git mr-2"></i>Github / git</li>
-                  <li><i class="fab fa-trello mr-2"></i>Trello</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <h3>Mes formations</h3>
-          <div id="cardPro" class="col-sm-8 col-sm-offset-2">
-            <div class="card">
-              <div class="card-body">
-                <h5 id="titleCardPro" class="card-title">Études & Formations</h5>
-                <p id="school">2018-2019 - École centrale de Marseille
-                Passerelle Numérique </p>
-                <p id="school">2015-2016 - Lycée Poinso Chapuis
-                   Bac professionnel
-                   Tappiserie d'ameublement
-                  </p>
-                <p id="school">2011-2014 Collège Pierre Puget</p>
-                <p id="school">2007-2010 Collège Clair Soleil</p>
-                <hr>
                 <h5 id="titleCardPro" class="card-title">Lanngues</h5>
-                <p id="languages">Anglais (CECRL A1)</p>
-                <p id="languages">Allemand (CECRL A1)</p>
+               <p id="languages"><b>Anglais</b> (CECRL A1)</p>
+               <p id="languages"><b>Allemand</b> (CECRL A1)</p>
               </div>
             </div>
           </div>
+
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Front-end
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  <ul id="elmCard">
+                    <li> <i class="fab fa-html5 mr-2"></i>HTML</li>
+                    <li> <i class="fab fa-css3-alt mr-2"></i> CSS</li>
+                    <li> <i class="fab fa-js mr-2"></i>JavaScript</li>
+                    <li> <i class="fab fa-twitter mr-2"></i>Bootstrap</li>
+                    <li> <i class="fas fa-paint-brush mr-2"></i>UX/UI Design</li>
+                    <li><i class="fab fa-wordpress-simple"></i>Wordpress</li>
+                    <li><i class="fas fa-user-cog"></i>SPIP</li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Back-end
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  <ul id="elmCard">
+                    <li> <i class="fas fa-database mr-2"></i>MySQL</li>
+                    <li> <i class="fab fa-node-js mr-2"></i>NodeJS</li>
+                    <li><i class="fab fa-linux mr-2"></i> Systèmes UNIX</li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a id="cv" class="btn btn-primary btn-lg" href="files/Janis_Lobry_cv.pdf" target="_blank" download="files/Janis_Lobry_cv">TÉLÉCHARGER MON CV</a>
         </div>
-      </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed title" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Mes formations
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+            <h5 id="titleCardPro" class="card-title">Études & Formations</h5>
+            <p id="school"><b>2019</b> - Stage en développement web - Laboratoire de Mécanique et d'acoustique
+            <b> • Missions : </b> <br>
+            ➔ Création d'un intranet avec le CMS SPIP pour l'usage quotidien du personnel du laboratoire</p>
+            <p id="school"><b>2018-2019</b> - École centrale de Marseille
+               Passerelle Numérique <br> ➔ Formation web déveeloppeuse full-stack </p>
+               <p id="school"><b>2015-2016</b> - Lycée Poinso Chapuis
+                <br> ➔  Bac professionnel
+                  Tappiserie d'ameublement
+                 </p>
+                <p id="school"><b>2011</b> - Stage en entreprise vente & distribution
+              <br> ➔ Spécialisé dans le jeux vidéo et le multimédia</p>
+               <p id="school"><b>2007-2010</b> - Collège Clair Soleil</p>
+               <hr>
 
-      <div id="cv" class="row centered mt mb">
+              </div>
+            </div>
+          </div>
 
-        <a class="btn btn-primary btn-lg" href="files/Janis_Lobry_cv.pdf" target="_blank" download="files/Janis_Lobry_cv">TÉLÉCHARGER MON CV</a>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Théorie informatique
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div class="card-body">
+                  <ul id="elmCard">
+                    <li> <i class="fas fa-book mr-2"></i>Algorithmique</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Gestion de projet
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                <div class="card-body">
+                  <ul id="elmCard">
+                    <li><i class="fab fa-git mr-2"></i>Github / git</li>
+                    <li><i class="fab fa-trello mr-2"></i>Trello</li>
+                    <li><i class="fab fa-slack"></i>Slack</li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <a id="linkedin" class="btn btn-success btn-lg" href="https://www.linkedin.com/in/janis-lobry/" target="_blank">VOIR MON LINKEDIN</a>
+
+        </div>
       </div>
     </div>
+  </div>
+
+  </div>
 
 
   </div>
